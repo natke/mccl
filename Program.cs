@@ -8,8 +8,6 @@ using Microsoft.ML.Data;
 using Microsoft.ML.Trainers;
 
 
-namespace MachineLearning
-{
     class Program
     {
         private static string _appPath => Path.GetDirectoryName(Environment.GetCommandLineArgs()[0]);
@@ -100,4 +98,3 @@ namespace MachineLearning
 
         }
     }
-}
